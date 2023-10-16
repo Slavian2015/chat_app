@@ -1,0 +1,208 @@
+[
+    {
+        "Question ID": "Q1",
+        "Question_short": "How can I test more data in Forex Tester?",
+        "Question_original": "I registered my Forex Tester but can test only 1 month of data . How can I test more data?",
+        "Keywords": [
+            "Forex Tester",
+            "test more data",
+            "registration"
+        ],
+        "Answer_plain_text": "Please do the following to fix the issue:\n1. Click the “Data Center” button on the Main Toolbar > select the broker from the dropdown list and click on the “Update from server” button > select the “Download part of history” radio button > set up the desired date range and click “Update”.\n2. Create a new project through the File > New Project main menu or use the “New Project” button on the Main Toolbar. Give a name to the project, then click Next.\n3. In the next window select the necessary pairs that you want to test and dates of testing, click “Next”.\n4. Start testing from the first date in the range or define any other day to start and click “Create”.\n5. Click the “Start Test” button when you are ready to start testing your strategy.",
+        "Answer_original": "<p>Please do the following to fix the issue:<br />\n1. Click the <strong>“Data Center”</strong> button on the Main Toolbar &gt; <strong>select the broker from the dropdown list</strong> and click on the&nbsp;<strong>“Update from server”</strong> button &gt; select the <strong>“Download part of history”</strong> radio button &gt; <strong>set up the desired date range</strong> and click <strong>“Update”</strong>.<br />\n2. <strong>Create a new project </strong>through the <strong>File &gt; New Project</strong> main menu or use the <strong>“New Project”</strong> button on the Main Toolbar. <strong>Give a name to the project</strong>, then click <strong>Next</strong>.<br />\n3. In the next window <strong>select the necessary pairs</strong> that you want to test and dates of testing, click <strong>“Next”</strong>.<br />\n4. <strong>Start testing from the first date in the range or define any other day to start</strong> and click <strong>“Create”</strong>.<br />\n5. Click the <strong>“Start Test”</strong> button when you are ready to start testing your strategy.</p>",
+        "Question_original_alternatives": [
+            "How can I test more data in Forex Tester after registration?",
+            "What should I do to test more data in Forex Tester?",
+            "Is it possible to test more than 1 month of data in Forex Tester?",
+            "How to increase the amount of data for testing in Forex Tester?",
+            "What is the solution to test more data in Forex Tester?",
+            "How to extend the testing period in Forex Tester?",
+            "What are the steps to follow to test more data in Forex Tester?",
+            "How to download more data for testing in Forex Tester?",
+            "What is the process to test more data in Forex Tester?",
+            "How to get access to more data for testing in Forex Tester?"
+        ],
+        "Question_short_alternatives": [
+            "How to test more data in Forex Tester?",
+            "How to increase testing data in Forex Tester?",
+            "How to extend testing period in Forex Tester?",
+            "How to download more data for Forex Tester?",
+            "How to get access to more testing data in Forex Tester?",
+            "What to do to test more data in Forex Tester?",
+            "How to add more data for testing in Forex Tester?",
+            "How to select more data for testing in Forex Tester?",
+            "How to choose more data for Forex Tester?",
+            "How to update data for testing in Forex Tester?"
+        ],
+        "Notes": "This question is related to the registration process and testing data in Forex Tester. The answer provides a step-by-step guide to fix the issue and test more data. The support representative should make sure that the user follows the steps correctly and understands the process.",
+        "Source_type": "SP_FAQ",
+        "date": "2020-01-01"
+    },
+    {
+        "Question ID": "Q2",
+        "Question_short": "How to add custom indicators to Forex Tester?",
+        "Question_original": "How to add my own indicator to Forex Tester 4/Forex Tester 5?",
+        "Keywords": [
+            "custom indicators",
+            "add",
+            "Forex Tester",
+            "conversion",
+            "programmer",
+            "4XDev company"
+        ],
+        "Answer_plain_text": "Forex Tester doesn't support indicators and expert advisers in a format that differs from .dll. Indicators in other formats should be converted to .dll first. Please note, that there is no converter feature in Forex Tester and you may need a programmer to convert indicators and strategies. In case, if you have issues with the creation of indicators/strategies please contact our developers from 4XDev company 4xdev.team@gmail.com. Please note that this service is for an extra payment.",
+        "Answer_original": "<p>Forex Tester doesn`t support indicators and expert advisers in a format that differs from <strong>.dll</strong><br />\nIndicators in other&nbsp;formats should be converted to <strong>.dll</strong> first.&nbsp;</p>\n\n<p>Please note, that there is no converter feature in Forex Tester&nbsp;and you may need a programmer to convert indicators and strategies.<br />\n<br />\nIn case, if you have issues with the creation of indicators\\strategies please contact our developers from <strong>4XDev company</strong>&nbsp;<strong><a href=\"mailto:4xdev.team@gmail.com\">4xdev.team@gmail.com</a></strong>&nbsp;<br />\n<br />\nPlease note that this service is for an extra payment.</p>",
+        "Question_original_alternatives": [
+            "How can I use my own indicators in Forex Tester?",
+            "Is it possible to add custom indicators to Forex Tester?",
+            "What is the process of adding custom indicators to Forex Tester?",
+            "Can I import my own indicators to Forex Tester?",
+            "How do I add my own indicators to Forex Tester?",
+            "What should I do to use my own indicators in Forex Tester?",
+            "Is there a way to add custom indicators to Forex Tester?",
+            "What are the steps to add custom indicators to Forex Tester?",
+            "How do I import custom indicators to Forex Tester?",
+            "Can I use my own indicators in Forex Tester?"
+        ],
+        "Question_short_alternatives": [
+            "How to add custom indicators?",
+            "Adding custom indicators?",
+            "How to use own indicators?",
+            "Importing custom indicators?",
+            "Process of adding custom indicators?",
+            "How to import own indicators?",
+            "Custom indicators in Forex Tester?",
+            "Using own indicators?",
+            "Adding own indicators?",
+            "Importing own indicators?"
+        ],
+        "Notes": "The user wants to know how to add their own indicators to Forex Tester. The answer explains that Forex Tester only supports indicators in .dll format and that other formats need to be converted to .dll first. The answer also mentions that there is no converter feature in Forex Tester and that the user may need a programmer to convert indicators and strategies. If the user has issues with the creation of indicators/strategies, they can contact the developers from 4XDev company at 4xdev.team@gmail.com, but this service is for an extra payment. The support representative should also inform the user that they need to have programming knowledge to add custom indicators to Forex Tester.",
+        "Source_type": "SP_FAQ",
+        "date": "2020-01-01"
+    },
+    {
+        "Question ID": "Q3",
+        "Question_short": "What OS is Forex Tester compatible with?",
+        "Question_original": "What operation system Forex Tester compatible with?",
+        "Keywords": [
+            "Forex Tester",
+            "compatible",
+            "operation system",
+            "Windows",
+            "Linux",
+            "Mac"
+        ],
+        "Answer_plain_text": "Forex Tester is fully compatible with all modern Windows versions. (Windows 2000, 2003, XP, Vista, Windows 7, Windows 8, Windows 10, Windows 11). Forex Tester is not compatible with Windows 95/98/Me.\n\nThere is no Linux version of the software at the moment, but you can create a virtual machine with VMWare and install Windows on it.\n\nThere is no Mac version of the software for now, but you can create a virtual machine with Parallels Desktop or VMWare Fusion and install Windows on it.  \n\nPlease note that Forex Tester isn't compatible with VirtualBox and Wine. ",
+        "Answer_original": " Forex Tester is fully compatible with all modern Windows versions. (Windows 2000, 2003, XP, Vista, Windows 7, Windows 8, Windows 10, Windows 11). Forex Tester is not compatible with Windows 95/98/Me.<br />\n<br />\nThere is no Linux&nbsp;version of the software at the moment, but you can create a virtual machine with&nbsp;<strong>VMWare</strong>&nbsp;and install Windows on it.&nbsp;<br />\n<br />\nThere is no Mac version of the software for now, but you can create a virtual machine with&nbsp;<strong>Parallels Desktop&nbsp;or&nbsp;VMWare Fusion</strong><em>&nbsp;</em>and install Windows on it.&nbsp;&nbsp;<br />\n<br />\nPlease note that Forex Tester isn&rsquo;t compatible with VirtualBox and Wine. ",
+        "Question_original_alternatives": [
+            "What are the compatible operating systems for Forex Tester?",
+            "Which operating systems can I use with Forex Tester?",
+            "Is Forex Tester compatible with Windows 10?",
+            "Can I use Forex Tester on Windows 7?",
+            "What are the system requirements for Forex Tester?",
+            "Does Forex Tester work on Windows 8?",
+            "Is Forex Tester compatible with Windows 11?",
+            "What are the supported OS for Forex Tester?",
+            "Which Windows versions are compatible with Forex Tester?",
+            "Can I run Forex Tester on Windows Vista?"
+        ],
+        "Question_short_alternatives": [
+            "What OS does Forex Tester work on?",
+            "Compatible OS for Forex Tester?",
+            "Forex Tester and operating systems?",
+            "Which OS for Forex Tester?",
+            "Forex Tester OS compatibility?",
+            "What OS is supported by Forex Tester?",
+            "Forex Tester and Windows compatibility?",
+            "Forex Tester and OS?",
+            "Forex Tester and Windows versions?",
+            "Forex Tester and system requirements?"
+        ],
+        "Notes": "The answer provides information about the operating systems that are compatible with Forex Tester. It also gives instructions on how to use Forex Tester on Linux and Mac OS by creating a virtual machine with VMWare, Parallels Desktop, or VMWare Fusion and installing Windows on it. The answer also notes that Forex Tester is not compatible with VirtualBox and Wine.",
+        "Source_type": "SP_FAQ",
+        "date": "2020-01-01"
+    },
+    {
+        "Question ID": "Q4",
+        "Question_short": "How to move Forex Tester to another machine?",
+        "Question_original": "I have a license. How can I move Forex Tester 5/Forex Tester 4(3) to other machine?",
+        "Keywords": [
+            "license",
+            "move",
+            "Forex Tester",
+            "new computer",
+            "registration",
+            "transfer data"
+        ],
+        "Answer_plain_text": "If you use Forex Tester 5 or Forex Tester 4(3), then please register it with the same key on your new computer.\nIn this case, the registration will be moved to this new machine automatically.\n\nPlease do the following:\n1. Download Forex Tester to your new computer (you can download it here: FT3, FT4, FT5).\n2. Install it on your computer.\n3. Go to the Help -> Register program.\n4. Enter your name, email, and registration key.\n5. Click the \"Activate\" button.\n6. Click the \"Restart program\" button.\n\nIf the registration failed: Please close the program and run it again as administrator, then try to register it again.\n\nTo transfer the data please follow these simple steps:\n- Open C:\\ForexTester4(3) or C:\\ForexTester 5 (by default) on your old PC.\n- Copy the Projects, Templates and Data folders to an external drive.\n- Replace these 3 folders in the Forex Tester folder on your new PC.",
+        "Answer_original": "If you use Forex Tester 5&nbsp;or Forex Tester 4(3), then please register it with the same key on your new computer.<br />\nIn this case, the registration will be moved to this new machine automatically.<br />\n<br />\nPlease do the following:<br />\n1. Download Forex Tester to your new computer (you can download it here:&nbsp;<strong><a href=\"http://www.forextester.com/files/ForexTesterSetupEng3.exe\">FT3</a></strong>, <strong><a href=\"http://www.forextester.com/files/ForexTesterSetupEng4.exe\">FT4</a></strong>, <strong><a href=\"http://www.forextester.com/files/ForexTesterSetupEng5.exe\">FT5</a></strong>).<br />\n2. Install it on your computer.<br />\n3. Go to the Help &rarr; Register program.<br />\n4. Enter your name, email, and registration key.<br />\n5. Click the &quot;Activate&quot; button.<br />\n6. Click the &quot;Restart program&quot; button.<br />\n<br />\nIf the registration failed: Please close the program and run it again as administrator, then try to register it again.<br />\n<br />\nTo transfer the data please follow these simple steps:<br />\n&bull; Open C:\\ForexTester4(3) or&nbsp;C:\\ForexTester 5 (by default) on your old PC.<br />\n&bull; Copy the Projects, Templates and Data folders to an external drive.<br />\n&bull; Replace these 3 folders in the Forex Tester folder on your new PC.",
+        "Question_original_alternatives": [
+            "How can I transfer my Forex Tester license to another computer?",
+            "What is the process to move Forex Tester to a new machine?",
+            "Is it possible to use Forex Tester on a different computer?",
+            "How to register Forex Tester on a new computer?",
+            "What are the steps to transfer Forex Tester to another PC?",
+            "Can I move my Forex Tester license to a different device?",
+            "What is the procedure to transfer Forex Tester to another computer?",
+            "How to install Forex Tester on a new machine with the same license?",
+            "What is the way to move Forex Tester to another device?",
+            "How to transfer Forex Tester to a new computer?"
+        ],
+        "Question_short_alternatives": [
+            "How to move Forex Tester to another PC?",
+            "Transfer Forex Tester to a new computer?",
+            "Moving Forex Tester to a different device?",
+            "How to transfer Forex Tester license?",
+            "Register Forex Tester on a new machine?",
+            "Steps to move Forex Tester to another computer?",
+            "How to install Forex Tester on a new PC?",
+            "Transfer Forex Tester to a different computer?",
+            "How to move Forex Tester to a new device?",
+            "Moving Forex Tester to a new machine?"
+        ],
+        "Notes": "The answer provides step-by-step instructions on how to move Forex Tester to another machine. The user needs to register the software with the same key on the new computer. The answer also explains how to transfer the data to the new machine. If the registration fails, the user needs to run the program as an administrator and try again. The answer also includes links to download Forex Tester and purchase historical data subscription. The support representative should make sure that the user understands the instructions and follows them correctly.",
+        "Source_type": "SP_FAQ",
+        "date": "2020-01-01"
+    },
+    {
+        "Question ID": "Q5",
+        "Question_short": "How to download data for other symbols after activating paid subscription?",
+        "Question_original": "I activated paid subscription but can still only see 18 pairs. How do I download data for other symbols?",
+        "Keywords": [
+            "paid subscription",
+            "download data",
+            "symbols",
+            "Data Center",
+            "broker"
+        ],
+        "Answer_plain_text": "After you subscribe to our paid data service you need to add the necessary symbol(s) in the Data Center window at first.\n1. Open the Data Center window and click the “Add” button in the bottom left to open the Symbols list.\n2. Check the necessary symbol(s) then click the \"Apply\" button to add them to your symbols list in the Data Center.\n3. All the information of this symbol (e.g.Lot Currency, Base Currency, Margin Currency fields) will be added automatically.\n5. Click “Ok” to save the changes.\n\nWhen done, please download the data for the symbol by selecting these symbols from the list, selecting the necessary broker and then clicking the “Update from server” button.",
+        "Answer_original": "After you subscribe to our paid data service you need to add the necessary symbol(s) in the <strong>Data Center </strong>window at first.<br />\n1. Open the <strong>Data Center</strong> window and click the <strong>&ldquo;Add&rdquo;</strong> button in the bottom left to open the <strong>Symbols list.</strong><br />\n2. <strong>Check the necessary symbol(s)</strong> then click the <strong>&quot;Apply&quot;</strong> button to add them to your symbols list in the Data Center.<br />\n3. All the information of this symbol (e.g.Lot Currency, Base Currency, Margin Currency fields) will be added automatically.<br />\n5. Click <strong>&ldquo;Ok&rdquo;</strong> to save the changes.<br />\n<br />\nWhen done, please download the data for the symbol by selecting these symbols from the list, selecting the necessary broker and then clicking the <strong>&quot;Update from server&quot;</strong> button.",
+        "Question_original_alternatives": [
+            "How can I download data for additional symbols after subscribing to the paid service?",
+            "I subscribed to the paid service but I can only see 18 pairs. How do I download data for other symbols?",
+            "What should I do to download data for other symbols after activating the paid subscription?",
+            "I have a paid subscription but I can't download data for other symbols. How can I do that?",
+            "How to add symbols and download data for them after activating the paid subscription?",
+            "What is the process to download data for additional symbols after subscribing to the paid service?",
+            "I want to download data for other symbols but I can't. What should I do after activating the paid subscription?",
+            "How to access data for additional symbols after subscribing to the paid service?",
+            "I subscribed to the paid service but I can't find data for other symbols. What is the solution?",
+            "What are the steps to download data for other symbols after activating the paid subscription?"
+        ],
+        "Question_short_alternatives": [
+            "How to download data for additional symbols with paid subscription?",
+            "How to add symbols and download data with paid subscription?",
+            "How to access data for additional symbols with paid subscription?",
+            "How to download data for other symbols after subscribing?",
+            "How to add symbols and download data after subscribing?",
+            "How to access data for other symbols after subscribing?",
+            "How to download data for more symbols with paid subscription?",
+            "How to add symbols and download data for more pairs?",
+            "How to access data for more symbols?",
+            "How to download data for additional pairs?"
+        ],
+        "Notes": "The answer provides clear instructions on how to add symbols and download data for them in Forex Tester. The support representative should make sure that the user has a paid subscription and follows the steps provided in the answer. If the user still has issues with downloading data, the support representative should ask for more details and investigate the issue further.",
+        "Source_type": "SP_FAQ",
+        "date": "2020-01-01"
+    }
+]

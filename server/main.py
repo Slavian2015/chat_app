@@ -8,9 +8,7 @@ from datetime import datetime
 import json
 
 logging.config.fileConfig('logging.conf', disable_existing_loggers=False)
-
-# get root logger
-logger = logging.getLogger(__name__)  # the __name__ resolve to "main" since we are at the root of the project.
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -64,7 +62,7 @@ async def websocket_endpoint(
         while True:
             data = await websocket.receive_text()
             client = "Server" if data == "Start" else client_id
-            message = {"time": current_time, "clientId": client, "message": data + "_server"}
+            message = {"time": current_time, "clientId": client, "message": data}
             await manager.send_personal_message(message, client_id)
 
     except WebSocketDisconnect:
