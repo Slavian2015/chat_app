@@ -42,7 +42,7 @@ function App() {
             <div className="chat-container">
                 <div className="chat">
                     {messages.map((value, index) => {
-                        if (value.clientId === clientId) {
+                        if (value.sender === clientId) {
                             return (
                                 <div key={index} className="my-message-container">
                                     <div className="my-message">
