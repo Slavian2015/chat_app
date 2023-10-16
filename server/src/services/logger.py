@@ -30,6 +30,5 @@ class LoggerConfig(BaseSettings):
     }
 
 
-
 dictConfig(LoggerConfig().dict())
 logger = logging.getLogger(LoggerConfig().LOGGER_NAME)

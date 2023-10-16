@@ -5,7 +5,7 @@ from src.domain.chats import Message
 
 class MessageResponse(BaseModel):
     sender: str | int
-    message: str
+    message: str | None
     datetime: str
     time: str
 

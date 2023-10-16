@@ -29,3 +29,4 @@ RUN pip install validators
 RUN pip install websockets
 RUN pip install Werkzeug
 RUN pip install pydantic-settings
+RUN pip install httpx

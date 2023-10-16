@@ -16,12 +16,12 @@ function App() {
         };
 
         ws.onclose = (e) => {
-           console.log('close ws connection: ', e.code, e.reason)
+            console.log('close ws connection: ', e.code, e.reason)
         }
 
         ws.onmessage = (e) => {
             let str = e.data.replaceAll("\"", "&quot;")
-            str = e.data.replaceAll("'","\"");
+            str = e.data.replaceAll("'", "\"");
             setMessages(prevMessages => [...prevMessages, JSON.parse(str)]);
         };
 
@@ -47,7 +47,7 @@ function App() {
                                 <div key={index} className="my-message-container">
                                     <div className="my-message">
                                         <p className="client">client id : {clientId}</p>
-                                        <p className="message">{value.message} TEST</p>
+                                        <p className="message">{value.message}</p>
                                     </div>
                                 </div>
                             );
@@ -69,6 +69,11 @@ function App() {
                         type="text"
                         placeholder="Chat message ..."
                         onChange={e => setMessage(e.target.value)}
+                        onKeyDown={e => {
+                            if (e.code === 'Enter') {
+                                sendMessage()
+                            }
+                        }}
                         value={message}
                     ></input>
                     <button className="submit-chat" onClick={sendMessage}>

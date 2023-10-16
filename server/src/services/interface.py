@@ -18,7 +18,6 @@ class WebsocketManagerInterface(ABC):
     async def notify_user(self, user_id: int, message: dict) -> None:
         raise NotImplementedError
 
-
     @abstractmethod
     async def get_connection(self, room_id: int) -> WebSocket | None:
         raise NotImplementedError
