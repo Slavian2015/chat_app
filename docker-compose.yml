@@ -27,6 +27,8 @@ services:
      - 3002:3000
     volumes:
       - ./client:/app
+    environment:
+      - REACT_APP_WS_URL=${REACT_APP_WS_URL}
     tty: true
     stdin_open: true
     depends_on:

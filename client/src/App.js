@@ -8,7 +8,7 @@ function App() {
     const [messages, setMessages] = useState([]);
 
     useEffect(() => {
-        const url = "ws://0.0.0.0:8090/ws/" + clientId;
+        const url = process.env.REACT_APP_WS_URL + clientId;
         const ws = new WebSocket(url);
 
         ws.onopen = event => {
