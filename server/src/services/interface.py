@@ -21,3 +21,9 @@ class WebsocketManagerInterface(ABC):
     @abstractmethod
     async def get_connection(self, room_id: int) -> WebSocket | None:
         raise NotImplementedError
+
+
+class GPTInterface(ABC):
+    @abstractmethod
+    def get_gpt_answer(self, user_question: str) -> str | None:
+        raise NotImplementedError

@@ -1,52 +1,46 @@
 ## Setup and Run locally
-FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
+FastAPI + OpenAI + Websocket - chat example
 
-### for server
 
-Install the dependencies
+### Build & run the docker-compose
 
+- first of all, check if you already copied .env from .env.dist file
 ```bash
-pip install -r requirements.txt
+cp .env.dist .env
 ```
 
-Run the backend server
+- update your openAI api secret key in it
+- build and start docker-compose
 
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+docker-compose up -d --build
 ```
+- To check if server is running go to: <br />
 
-### for client
+[http://0.0.0.0:8090/](http://0.0.0.0:8090) 
 
-Install the dependencies
 
+- To check if frontend is running go to: <br />
+
+[http://0.0.0.0:3002/](http://0.0.0.0:3002) 
+
+
+<br />
+
+### How to teach ChatGPT to use your data for answers
+- put your files to directory ./server/docs
+- run this command:
 ```bash
-npm i
+docker exec -it chat_api bash -c "python chat_model.py"
 ```
+- restart chat_api container
 
-Start the server
+<br />
 
-```bash
-npm start
-```
-
-### Build & run the docker image
-
-- for backend
+### TESTS
 
 ```bash
-docker build -t server .
-```
-
-```bash
-docker run -d -p 8000:8000 server
-```
-
-- for client
-
-```bash
-docker build -t client .
-```
-
-```bash
-docker run -d -p 3000:3000 client
+docker exec -it chat_api bash -c "python -m pytest"
+docker exec -it chat_api bash -c "mypy src tests"
+docker exec -it chat_api bash -c "flake8 src tests"
 ```

@@ -5,7 +5,6 @@ from typing import TypeVar
 from starlette.websockets import WebSocket
 
 TCommand = TypeVar('TCommand')
-TEvent = TypeVar('TEvent')
 TQuery = TypeVar('TQuery')
 TResult = TypeVar('TResult')
 

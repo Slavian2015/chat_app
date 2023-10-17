@@ -31,6 +31,7 @@ function App() {
 
     const sendMessage = () => {
         websckt.send(message);
+        setMessages(prevMessages => [...prevMessages, {sender:clientId, message: message}]);
         setMessage([]);
         console.log("sendMessage messages", messages)
     };

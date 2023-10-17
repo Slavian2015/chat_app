@@ -6,5 +6,5 @@ from src.services.container import ServicesContainer
 
 class AppContainer(DeclarativeContainer):
     config = providers.Configuration()
-    services = providers.Container(ServicesContainer, open_api_secret=config.open_api_secret)
+    services = providers.Container(ServicesContainer)
     handlers = providers.Container(HandlersContainer, services=services)

@@ -7,8 +7,9 @@ class ConnectionManager(WebsocketManagerInterface):
         self.rooms: dict[int, WebSocket] = {}
 
     async def connect(self, room_id: int, websocket: WebSocket) -> None:
-        await websocket.accept()
-        self.rooms[room_id] = websocket
+        if not self.rooms.get(room_id):
+            await websocket.accept()
+            self.rooms[room_id] = websocket
 
     async def disconnect(self, room_id: int) -> None:
         del self.rooms[room_id]

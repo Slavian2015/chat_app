@@ -21,8 +21,7 @@ load_dotenv(BASE_PATH / '.env')
 container = AppContainer()
 
 container.config.base_dir.from_value(BASE_PATH)
-container.config.frontend_base_url.from_env('FRONTEND_BASE_URL', default='')
-
+container.config.gpt_dir.from_value(BASE_PATH / 'storage')
 # CHAT_GPT
 container.config.openai_api_sercret.from_env('OPENAI_API_KEY', '')
 
@@ -31,8 +30,7 @@ container.wire(packages=[src])
 api = FastAPI()
 api.add_middleware(
     CORSMiddleware,
-    allow_origins=['*'],
-    # allow_origins=['0.0.0.0', '*', 'localhost', 'http://localhost:3000', 'http://0.0.0.0:3000'],
+    allow_origins=['0.0.0.0', '*', 'localhost', 'http://localhost:3002', 'http://0.0.0.0:3002'],
     allow_methods=["*"],
     allow_credentials=True,
     allow_headers=["*"],

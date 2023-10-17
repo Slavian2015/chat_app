@@ -5,4 +5,9 @@ from src.handlers.websocket.chats import ChatWebsocketHandler
 
 class HandlersContainer(DeclarativeContainer):
     services = providers.DependenciesContainer()
-    get_chat = providers.Factory(ChatWebsocketHandler, websocket_manager=services.websocket_manager)
+
+    get_chat = providers.Factory(
+        ChatWebsocketHandler,
+        websocket_manager=services.websocket_manager,
+        gpt_manager=services.gpt_manager,
+    )
